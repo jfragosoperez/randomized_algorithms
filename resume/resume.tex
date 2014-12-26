@@ -40,11 +40,24 @@ A probability space has three components:
 \item for any finite or countably infinite sequence of pairwise mutually disjoint events $E_1, E_2, E_3,...,$
 \newline
 \begin{center}
-
 $Pr \left(\bigcup_{i\geq1}^{} E_i\right) = \sum_{i\geq1}^{}Pr(E_i)$
 \end{center} 
 \end{enumerate}
 \end{enumerate}
+Suppose we roll two dice. If $E_1$ is the event that the first die is a 1 and $E_2$ is the event that the second die is a 1, then $E_1\cap E_2$ denotes the event that both dice are 1 while $E_1\cup E_2$ denotes the event that at least one of the two dices lands on 1. Similarly, we write $E_1-E_2$ for the occurence of an event that is in $E_!$ but no in $E_2$.
+\newline\newline
+Two events E and F are independent if and only if 
+\begin{center}
+$Pr(E\cap F) = Pr(E) \cdot Pr(F).$
+\end{center}
+\newpage
+The conditional probability that event E occurs given that event F occurs is
+\begin{center}
+$Pr(E|F) = \tfrac{Pr(E\cap F)}{Pr(F)}$
+\newline
+\newline
+\emph{The conditional probability is well-defined only if} Pr(F) $>$ 0.
+\end{center}
 \section{Probability theory basics}
 \section{Distributed algorithm to check equality of strings}
 \section{Algorithm to verify polynomial equivalence}
